@@ -1,0 +1,9 @@
+{
+  "name": "rx-angular-autounsubscribe",
+  "version": "1.0.0",
+  "description": "Auto unsubscribe from RxJS subscriptions in Angular components",
+  "main": "index.js",
+  "repository": "git@github.com:mentatxx/rx-angular-autounsubscribe.git",
+  "author": "Alexey Petushkov <mentatxx@gmail.com>",
+  "license": "MIT"
+}
