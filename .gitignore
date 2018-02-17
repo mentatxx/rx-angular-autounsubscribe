@@ -1,5 +1,7 @@
-/build
-/bundles
-/dist
-/node_modules
-/temp
+.vscode
+.idea
+build
+bundles
+dist
+node_modules
+temp

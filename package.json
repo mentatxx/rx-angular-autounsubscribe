@@ -1,9 +1,22 @@
 {
   "name": "rx-angular-autounsubscribe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto unsubscribe from RxJS subscriptions in Angular components",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:mentatxx/rx-angular-autounsubscribe.git",
   "author": "Alexey Petushkov <mentatxx@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "rimraf": "rimraf",
+    "build": "npm run rimraf -- dist && tsc",
+    "prepare": "npm run rimraf -- dist && npm run build"
+  },
+  "typings": "./dist/index.d.ts",
+  "maintainers": [
+    "Alexey Petushkov"
+  ],
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "typescript": "^2.5.3"
+  }
 }
